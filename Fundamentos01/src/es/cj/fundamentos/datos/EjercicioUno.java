@@ -10,7 +10,7 @@ public class EjercicioUno {
 	private static Scanner sc = new Scanner(System.in); //system.in es el teclado, system.out hace referencia a la pantalla
 	
 	public static void main(String[] args) {
-		System.out.println("Grados Celsius: ");
+		System.out.println("Grados Celsius: "); 
 		double grados = sc.nextDouble();
 		double fahrenheit = (grados * 1.8) + 32;
 		System.out.println(grados + " grados celsius son " + fahrenheit + " grados Fahrenheit");
